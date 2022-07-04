@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main>
+    <h1>Biblioteca de Juegos</h1>
+    <section id="Juegos">
+        <ul></ul>
+            </section>
+
+            <section id ="formulario">
+                <form name ="formulario">
+
+                <fieldset>
+                    <legend>Añade otro juego</legend>
+                   <!--  <li> -->
+                        <label for="titulo">Título </label>
+
+                        <input
+                          type="text"
+                          name="titulo"
+                          id="titulo"
+                          placeholder="Escribe aquí un nuevo título"
+                          class = "datosArray"
+                          required
+                        
+                          
+                        />
+
+                        <label for="date">Fecha </label>
+                        <input
+                        type="text"
+                        name="date"
+                        id="date"
+                        placeholder="Año de lanzamiento"
+                        class = "datosArray"
+                        required
+                        
+
+                      />
+                        <label for="imagen">Imagen </label>
+                        <input type="url"
+                        name = "imagen"
+                        id="imagen"
+                        class = "datosArray"
+                        placeholder="Selecciona la url de la imagen"
+                        required
+
+                        />
+
+                        <label for="parrafo">Características </label>
+                        <input type="textarea"
+                        name = "parrafo"
+                        id="parrafo"
+                        placeholder="Haz un breve resumen"
+                          required
+                          class = "datosArray"
+                        />
+
+                        <button type="submit">Enviar</button>
+                        <!-- </li> -->
+                </fieldset>
+                </form>
+            </section>
+            <footer>Nyxel Viqueira</footer>
+        </main>
+    <script src="./js/src.js"></script>
+</body>
+</html>
